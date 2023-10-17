@@ -4,4 +4,4 @@ Simplify your reading with Summize, an open-source article summarizer that trans
 Built with React, redux and Tailwind
 
 - [Ai Summarizer](https://laurencesaiarticle.netlify.app) 
--
+
