@@ -1,15 +1,17 @@
-import { logo } from '../assets';
+import { images } from '../constants';
 
 const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
+        <img src={images.ai} alt='ai logo' className='w-28 object-contain' />
 
         <button
           type='button'
-          onClick={() => window.open('https://github.com/c1452657')}
-          className='black-btn'
+          onClick={() =>
+            window.open('https://github.com/C14526257/Ai_article_summarizer')
+          }
+          className='black_btn'
         >
           Github
         </button>
